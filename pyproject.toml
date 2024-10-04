@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "chaindots"
+version = "0.1.0"
+description = ""
+authors = ["macadden <mati.macadden@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django = "^4.2.7"
+djangorestframework = "^3.15.2"
+django-cors-headers = "^4.4.0"
+psycopg2-binary = "^2.9.9"
+djangorestframework-simplejwt = "^5.3.1"
+django-simple-history = "^3.7.0"
+django-filter = "^24.3"
+django-environ = "^0.11.2"
+pyjwt = "^2.9.0"
+social-auth-app-django = "^5.4.2"
+social-auth-core = "^4.5.4"
+django-storages = "^1.14.4"
+djoser = "^2.2.3"
+argon2-cffi = "^23.1.0"
+pillow = "^10.4.0"
+python-slugify = "^8.0.4"
+django-ckeditor = "^6.7.1"
+python-dotenv = "^1.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0"
+pytest-django = "^4.0"
+mixer = "^7.0"
+
+[tool.poetry.group.dev.dependencies]
+mixer = "7.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
